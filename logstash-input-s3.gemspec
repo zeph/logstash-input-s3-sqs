@@ -26,5 +26,6 @@ Gem::Specification.new do |s|
  # s.add_runtime_dependency 'aws-sdk-resources', '>= 2.0.33'
   s.add_development_dependency 'logstash-devutils'
   s.add_development_dependency "logstash-codec-json"
+  s.add_development_dependency "logstash-codec-json_stream"
   s.add_development_dependency "logstash-codec-multiline"
 end
